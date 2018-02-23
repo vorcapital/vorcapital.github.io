@@ -19,7 +19,7 @@
      color: rgb(151, 153, 155);
 }
 .link {
-     color: rgb(99, 102, 106);
+    color: rgb(99, 102, 106) !important;
 }
 .hover-light-vor-gray:hover{
   color: rgb(151, 153, 155);
