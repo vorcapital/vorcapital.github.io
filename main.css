@@ -16,10 +16,11 @@
 
 .bg-vor-gray {
      font-family:futura-book, sans-serif;
-     color: rgb(151, 153, 155);
+     background: rgb(99, 102, 106);
+     color: white;
 }
 .link {
-    color: rgb(99, 102, 106) !important;
+  color: white;
 }
 .hover-light-vor-gray:hover{
   color: rgb(151, 153, 155);
