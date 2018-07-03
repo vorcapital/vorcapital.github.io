@@ -1,23 +1,27 @@
 @font-face{
-    font-family:futura-book;
-    src:url(fonts/Futura/FuturaRegular/Futura-Normal.eot);
-    src:url(fonts/Futura/FuturaRegular/Futura-Normal.eot?#iefix) format('embedded-opentype'),url(fonts/Futura/FuturaRegular/Futura-Normal.woff) format('woff'),url(fonts/Futura/FuturaRegular/Futura-Normal.ttf) format('truetype'),url(fonts/Futura/FuturaRegular/Futura-Normal.svg#fonts/Futura/FuturaRegular/Futura-Normal) format('svg');
-    font-weight:400;
-    font-style:normal
+  font-family:futura-book;
+  src:url(fonts/Futura/FuturaRegular/Futura-Normal.eot);
+  src:url(fonts/Futura/FuturaRegular/Futura-Normal.eot?#iefix) format('embedded-opentype'),url(fonts/Futura/FuturaRegular/Futura-Normal.woff) format('woff'),url(fonts/Futura/FuturaRegular/Futura-Normal.ttf) format('truetype'),url(fonts/Futura/FuturaRegular/Futura-Normal.svg#fonts/Futura/FuturaRegular/Futura-Normal) format('svg');
+  font-weight:400;
+  font-style:normal
 }
 
 @font-face{
-    font-family:futura-bold;
-    src:url(fonts/Futura/FuturaBold/Futura-Bold.eot);
-    src:url(fonts/Futura/FuturaBold/Futura-Bold.eot?#iefix) format('embedded-opentype'),url(fonts/Futura/FuturaBold/Futura-Bold.woff) format('woff'),url(fonts/Futura/FuturaBold/Futura-Bold.ttf) format('truetype'),url(fonts/Futura/FuturaBold/Futura-Bold.svg#fonts/Futura/FuturaBold/Futura-Bold) format('svg');
-    font-weight:400;
-    font-style:normal
+  font-family:futura-bold;
+  src:url(fonts/Futura/FuturaBold/Futura-Bold.eot);
+  src:url(fonts/Futura/FuturaBold/Futura-Bold.eot?#iefix) format('embedded-opentype'),url(fonts/Futura/FuturaBold/Futura-Bold.woff) format('woff'),url(fonts/Futura/FuturaBold/Futura-Bold.ttf) format('truetype'),url(fonts/Futura/FuturaBold/Futura-Bold.svg#fonts/Futura/FuturaBold/Futura-Bold) format('svg');
+  font-weight:400;
+  font-style:normal
 }
 
 .bg-vor-gray {
-     font-family:futura-book, sans-serif;
-     background: rgb(99, 102, 106);
-     color: white;
+  font-family:futura-book, sans-serif;
+  background: rgb(99, 102, 106);
+  background-image: url('./bg.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+  color: white;
 }
 .link {
   color: white;
@@ -28,12 +32,21 @@
 address{
   font-style: initial;
 }
- body {
-     line-height: 30px;
-     -webkit-font-smoothing: antialiased;
-     -moz-osx-font-smoothing: grayscale;
+
+body {
+  line-height: 30px;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
+.main-section{
+  height: 100%;
+  padding-bottom: 50px;
+}
 
-
-
+footer{
+  height: 50px;
+  margin-top: -50px;
+  text-align: center;
+}
